@@ -1,6 +1,0 @@
-{
-  "browser": "chrome",
-  "headless_mode": false,
-  "base_url": "http://www.phptravels.net/",
-  "timeout": 20
-}

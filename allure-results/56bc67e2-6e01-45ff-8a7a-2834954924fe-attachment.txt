@@ -1,0 +1,3 @@
+Page: https://phptravels.net/cars
+Load Time: 1.31s
+Status: PASS

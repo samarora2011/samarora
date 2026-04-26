@@ -1,0 +1,4 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:50 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:53 Driver quitted

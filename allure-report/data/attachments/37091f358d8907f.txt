@@ -1,0 +1,64 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search By City"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search By City"] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search By City"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search By City"] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search By City"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search By City"] found
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') and contains(@class,'border-b') and contains(@class,'transition-colors')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on p-2.5 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors
+[32mINFO    [0m selenium:webdriver_listener.py:44 Element clicked (element became stale after click)
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Check-in Date"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Check-in Date"] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Check-out Date"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Check-out Date"] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input cursor-pointer')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input cursor-pointer')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input-dropdown-content') and contains(@class,'show')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input-dropdown-content') and contains(@class,'show')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on input cursor-pointer flex items-center justify-between
+[32mINFO    [0m selenium:webdriver_listener.py:39 input cursor-pointer flex items-center justify-between clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector div.input-dropdown-content.show
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector div.input-dropdown-content.show found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Adults']]//span[contains(@class,'text-center') and normalize-space()!='']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Adults']]//span[contains(@class,'text-center') and normalize-space()!=''] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Adults']]//button[.//span[normalize-space()='add']]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Adults']]//button[.//span[normalize-space()='add']] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50
+[32mINFO    [0m selenium:webdriver_listener.py:39 w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input cursor-pointer')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input cursor-pointer')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input-dropdown-content') and contains(@class,'show')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//span[contains(normalize-space(),'Guests')]]//div[contains(@class,'input-dropdown-content') and contains(@class,'show')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Children']]//span[contains(@class,'text-center') and normalize-space()!='']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown-content show')]//div[contains(@class,'flex items-center justify-between px-3 py-2 border-b border-gray-100')][.//div[contains(@class,'text-xs font-bold') and normalize-space()='Children']]//span[contains(@class,'text-center') and normalize-space()!=''] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//span[normalize-space()='Select Nationality']]//div[contains(@class,'input cursor-pointer')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//span[normalize-space()='Select Nationality']]//div[contains(@class,'input cursor-pointer')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on input cursor-pointer flex items-center justify-between
+[32mINFO    [0m selenium:webdriver_listener.py:39 input cursor-pointer flex items-center justify-between clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search country..."]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search country..."] found
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown-content') and .//input[@placeholder='Search country...']]//div[contains(@class,'input-dropdown-item') and contains(normalize-space(.), 'Ethiopia')][1]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown-content') and .//input[@placeholder='Search country...']]//div[contains(@class,'input-dropdown-item') and contains(normalize-space(.), 'Ethiopia')][1] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on input-dropdown-item flex items-center gap-2
+[32mINFO    [0m selenium:webdriver_listener.py:39 input-dropdown-item flex items-center gap-2 clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[contains(normalize-space(.), 'Search Hotels')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[contains(normalize-space(.), 'Search Hotels')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on btn w-full
+[32mINFO    [0m selenium:webdriver_listener.py:44 Element clicked (element became stale after click)
+[32mINFO    [0m selenium:webdriver_listener.py:50 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:53 Driver quitted

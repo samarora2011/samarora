@@ -1,0 +1,3 @@
+Page: https://phptravels.net/flights
+Load Time: 1.39s
+Status: PASS

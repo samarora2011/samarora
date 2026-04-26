@@ -1,0 +1,3 @@
+Page: https://phptravels.net/tours
+Load Time: 1.03s
+Status: PASS

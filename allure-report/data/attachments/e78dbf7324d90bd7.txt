@@ -1,0 +1,18 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net/cars
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net/cars opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="City or Airport"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="City or Airport"] found
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Same As Pick-up"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Same As Pick-up"] found
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector button[type="submit"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector button[type="submit"] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on btn w-full
+[32mINFO    [0m selenium:webdriver_listener.py:44 Element clicked (element became stale after click)
+[32mINFO    [0m selenium:webdriver_listener.py:50 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:53 Driver quitted

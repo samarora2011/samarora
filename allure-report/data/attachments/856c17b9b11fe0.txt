@@ -1,0 +1,46 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net/tours
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net/tours opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id page-loader
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id page-loader found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id page-loader
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id page-loader found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search By City"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search By City"] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by css selector input[placeholder="Search By City"]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by css selector input[placeholder="Search By City"] found
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:47 None value changed
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //input[@placeholder='Search By City']/ancestor::div[contains(@class,'relative')]//div[@x-show and (contains(@x-show,'destinationShouldShowDropdown') or contains(@x-show,'destinationShowNoResults'))]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //input[@placeholder='Search By City']/ancestor::div[contains(@class,'relative')]//div[@x-show and (contains(@x-show,'destinationShouldShowDropdown') or contains(@x-show,'destinationShowNoResults'))] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //input[@placeholder='Search By City']/ancestor::div[contains(@class,'relative')]//div[@x-show and (contains(@x-show,'destinationShouldShowDropdown') or contains(@x-show,'destinationShowNoResults'))]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //input[@placeholder='Search By City']/ancestor::div[contains(@class,'relative')]//div[@x-show and (contains(@x-show,'destinationShouldShowDropdown') or contains(@x-show,'destinationShowNoResults'))] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[@x-show and contains(@x-show,'destinationShouldShowDropdown')]//div[contains(@class,'cursor-pointer') and contains(@class,'border-b')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[@x-show and contains(@x-show,'destinationShouldShowDropdown')]//div[contains(@class,'cursor-pointer') and contains(@class,'border-b')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown') and .//input[@name='tour_type']]//div[contains(@class,'input cursor-pointer')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown') and .//input[@name='tour_type']]//div[contains(@class,'input cursor-pointer')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on input cursor-pointer flex items-center justify-between
+[32mINFO    [0m selenium:webdriver_listener.py:39 input cursor-pointer flex items-center justify-between clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //div[contains(@class,'input-dropdown-item') and contains(normalize-space(.), 'Any Type')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //div[contains(@class,'input-dropdown-item') and contains(normalize-space(.), 'Any Type')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on input-dropdown-item flex items-center gap-2
+[32mINFO    [0m selenium:webdriver_listener.py:39 input-dropdown-item flex items-center gap-2 clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by name start_date
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by name start_date found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by name adults
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by name adults found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by name adults
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by name adults found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by name adults
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by name adults found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by name adults
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by name adults found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id page-loader
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id page-loader found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit' and contains(normalize-space(.), 'Search Tours')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit' and contains(normalize-space(.), 'Search Tours')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on btn w-full
+[32mINFO    [0m selenium:webdriver_listener.py:44 Element clicked (element became stale after click)
+[32mINFO    [0m selenium:webdriver_listener.py:50 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:53 Driver quitted

@@ -1,0 +1,20 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name body
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name body found
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net/flights
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net/flights opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name body
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name body found
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net/tours
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net/tours opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name body
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name body found
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to https://phptravels.net/cars
+[32mINFO    [0m selenium:webdriver_listener.py:22 https://phptravels.net/cars opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name body
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name body found
+[32mINFO    [0m selenium:webdriver_listener.py:50 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:53 Driver quitted

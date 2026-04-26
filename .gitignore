@@ -4,6 +4,4 @@ __pycache__/
 *.pyd
 *.log
 .idea/
-allure-report/
-allure-results/
 *.swp

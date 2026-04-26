@@ -1,0 +1,1103 @@
+Collecting openpyxl
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-2.0.0 openpyxl-3.1.5
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+============================= test session starts =============================
+platform win32 -- Python 3.14.2, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\hp\Desktop\Selenium-SVVT-PHPTravels-Demo\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\hp\Desktop\Selenium-SVVT-PHPTravels-Demo
+configfile: pytest.ini
+plugins: allure-pytest-2.8.6
+collecting ... collected 18 items
+
+tests/test_log_in.py::TestLogIn::test_login_passed 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:22 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [  5%]
+tests/test_log_in.py::TestLogIn::test_login_failed 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 11%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_general 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 16%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data0] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 22%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data1] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 27%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data2] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 33%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data0] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 38%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data1] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 44%]
+tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data2] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 50%]
+tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_1 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 55%]
+tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_2[data0] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 61%]
+tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_2[data1] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 66%]
+tests/test_search_tour.py::TestTourSearch::test_search_tour_general 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 72%]
+tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data0] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 77%]
+tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data1] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 83%]
+tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data2] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 88%]
+tests/test_search_transfer.py::TestTransferSearch::test_search_transfer_general 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [ 94%]
+tests/test_search_transfer.py::TestTransferSearch::test_search_transfer_data_driven[data0] 
+------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+ERROR                                                                    [100%]
+
+=================================== ERRORS ====================================
+________________ ERROR at setup of TestLogIn.test_login_passed ________________
+
+request = <SubRequest 'setup' for <Function test_login_passed>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:22 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+________________ ERROR at setup of TestLogIn.test_login_failed ________________
+
+request = <SubRequest 'setup' for <Function test_login_failed>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+________ ERROR at setup of TestFlightSearch.test_search_flight_general ________
+
+request = <SubRequest 'setup' for <Function test_search_flight_general>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestFlightSearch.test_search_flight_one_way[data0] _____
+
+request = <SubRequest 'setup' for <Function test_search_flight_one_way[data0]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestFlightSearch.test_search_flight_one_way[data1] _____
+
+request = <SubRequest 'setup' for <Function test_search_flight_one_way[data1]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestFlightSearch.test_search_flight_one_way[data2] _____
+
+request = <SubRequest 'setup' for <Function test_search_flight_one_way[data2]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+___ ERROR at setup of TestFlightSearch.test_search_flight_round_trip[data0] ___
+
+request = <SubRequest 'setup' for <Function test_search_flight_round_trip[data0]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+___ ERROR at setup of TestFlightSearch.test_search_flight_round_trip[data1] ___
+
+request = <SubRequest 'setup' for <Function test_search_flight_round_trip[data1]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+___ ERROR at setup of TestFlightSearch.test_search_flight_round_trip[data2] ___
+
+request = <SubRequest 'setup' for <Function test_search_flight_round_trip[data2]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____________ ERROR at setup of TestHotelSearch.test_search_hotel_1 ____________
+
+request = <SubRequest 'setup' for <Function test_search_hotel_1>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+________ ERROR at setup of TestHotelSearch.test_search_hotel_2[data0] _________
+
+request = <SubRequest 'setup' for <Function test_search_hotel_2[data0]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+________ ERROR at setup of TestHotelSearch.test_search_hotel_2[data1] _________
+
+request = <SubRequest 'setup' for <Function test_search_hotel_2[data1]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+__________ ERROR at setup of TestTourSearch.test_search_tour_general __________
+
+request = <SubRequest 'setup' for <Function test_search_tour_general>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestTourSearch.test_search_tour_data_driven[data0] _____
+
+request = <SubRequest 'setup' for <Function test_search_tour_data_driven[data0]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestTourSearch.test_search_tour_data_driven[data1] _____
+
+request = <SubRequest 'setup' for <Function test_search_tour_data_driven[data1]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+____ ERROR at setup of TestTourSearch.test_search_tour_data_driven[data2] _____
+
+request = <SubRequest 'setup' for <Function test_search_tour_data_driven[data2]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+______ ERROR at setup of TestTransferSearch.test_search_transfer_general ______
+
+request = <SubRequest 'setup' for <Function test_search_transfer_general>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+_ ERROR at setup of TestTransferSearch.test_search_transfer_data_driven[data0] _
+
+request = <SubRequest 'setup' for <Function test_search_transfer_data_driven[data0]>>
+
+    @pytest.fixture(scope="function")
+    def setup(request):
+        config_path = os.path.join(PROJECT_ROOT, "config.json")
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config = json.load(config_file)
+    
+>       driver = DriverFactory.get_driver(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+conftest.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+utils\driver_factory.py:20: in get_driver
+    service = ChromeService(ChromeDriverManager().install())
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\chrome.py:34: in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\manager.py:23: in _get_driver_path
+    driver_version = driver.get_version()
+                     ^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:41: in get_version
+    return self.get_latest_release_version()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\webdriver_manager\driver.py:65: in get_latest_release_version
+    validate_response(resp)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+resp = <Response [404]>
+
+    def validate_response(resp):
+        if resp.status_code == 404:
+>           raise ValueError("There is no such driver by url {}".format(resp.url))
+E           ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_147.0.7727
+
+.venv\Lib\site-packages\webdriver_manager\utils.py:79: ValueError
+---------------------------- Captured stderr setup ----------------------------
+
+
+====== WebDriver manager ======
+Current google-chrome version is 147.0.7727
+Get LATEST driver version for 147.0.7727
+----------------------------- Captured log setup ------------------------------
+INFO     WDM:logger.py:12 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current google-chrome version is 147.0.7727
+INFO     WDM:logger.py:12 Get LATEST driver version for 147.0.7727
+=========================== short test summary info ===========================
+ERROR tests/test_log_in.py::TestLogIn::test_login_passed - ValueError: There ...
+ERROR tests/test_log_in.py::TestLogIn::test_login_failed - ValueError: There ...
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_general
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data0]
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data1]
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_one_way[data2]
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data0]
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data1]
+ERROR tests/test_search_flight.py::TestFlightSearch::test_search_flight_round_trip[data2]
+ERROR tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_1 - Valu...
+ERROR tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_2[data0]
+ERROR tests/test_search_hotel.py::TestHotelSearch::test_search_hotel_2[data1]
+ERROR tests/test_search_tour.py::TestTourSearch::test_search_tour_general - V...
+ERROR tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data0]
+ERROR tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data1]
+ERROR tests/test_search_tour.py::TestTourSearch::test_search_tour_data_driven[data2]
+ERROR tests/test_search_transfer.py::TestTransferSearch::test_search_transfer_general
+ERROR tests/test_search_transfer.py::TestTransferSearch::test_search_transfer_data_driven[data0]
+============================= 18 errors in 14.55s =============================

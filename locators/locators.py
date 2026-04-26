@@ -80,13 +80,21 @@ class SearchFlightsFormLocators:
 class SearchToursFormLocators:
     destination_input = (By.CSS_SELECTOR, 'input[placeholder="Search By City"]')
     destination_hidden = (By.NAME, 'destination')
+    destination_results_container = (By.XPATH, "//input[@placeholder='Search By City']/ancestor::div[contains(@class,'relative')]//div[@x-show and (contains(@x-show,'destinationShouldShowDropdown') or contains(@x-show,'destinationShowNoResults'))]")
+    destination_suggestion = (By.XPATH, "//div[@x-show and contains(@x-show,'destinationShouldShowDropdown')]//div[contains(@class,'cursor-pointer') and contains(@class,'border-b')]")
+    destination_no_results = (By.XPATH, "//div[@x-show and contains(@x-show,'destinationShowNoResults')]//p[contains(normalize-space(.),'No destinations found')]")
     start_date = (By.NAME, 'start_date')
     duration = (By.NAME, 'duration')
     tour_type_dropdown = (By.XPATH, "//div[contains(@class,'input-dropdown') and .//input[@name='tour_type']]//div[contains(@class,'input cursor-pointer')]")
     tour_type_option = (By.XPATH, "//div[contains(@class,'input-dropdown-item') and contains(normalize-space(.), '{0}')]")
-    adults = (By.NAME, 'adults')
-    children = (By.NAME, 'children')
+    adults_input = (By.NAME, 'adults')
+    adults_add_btn = (By.XPATH, "//button[@type='button' and @click=\"incrementTraveler('adults')\"]")
+    adults_subtract_btn = (By.XPATH, "//button[@type='button' and @click=\"decrementTraveler('adults')\"]")
+    children_input = (By.NAME, 'children')
+    children_add_btn = (By.XPATH, "//button[@type='button' and @click=\"incrementTraveler('children')\"]")
+    children_subtract_btn = (By.XPATH, "//button[@type='button' and @click=\"decrementTraveler('children')\"]")
     travelers = (By.NAME, 'travelers')
+    page_loader = (By.ID, 'page-loader')
     search_btn = (By.XPATH, "//button[@type='submit' and contains(normalize-space(.), 'Search Tours')]")
 
 

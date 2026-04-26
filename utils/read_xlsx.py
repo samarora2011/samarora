@@ -1,3 +1,4 @@
+import os
 from openpyxl import load_workbook
 
 from utils.search_flights_data import SearchFlightsData
@@ -5,11 +6,17 @@ from utils.search_hotels_data import SearchHotelsData
 from utils.search_tours_data import SearchToursData
 from utils.search_transfers_data import SearchTransfersData
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def _xlsx_path(filename: str) -> str:
+    return os.path.join(BASE_DIR, filename)
+
 
 class XlsxReader:
     @staticmethod
     def get_xlsx_hotels_data():
-        wb = load_workbook(f"./utils/search_hotels_input_data.xlsx")
+        wb = load_workbook(_xlsx_path("search_hotels_input_data.xlsx"))
         sheet = wb.active
         data = []
 
@@ -24,7 +31,7 @@ class XlsxReader:
 
     @staticmethod
     def get_xlsx_flights_data():
-        wb = load_workbook(f"./utils/search_flights_input_data.xlsx")
+        wb = load_workbook(_xlsx_path("search_flights_input_data.xlsx"))
         sheet = wb.active
         data = []
 
@@ -46,7 +53,7 @@ class XlsxReader:
 
     @staticmethod
     def get_xlsx_tours_data():
-        wb = load_workbook(f"./utils/search_tours_input_data.xlsx")
+        wb = load_workbook(_xlsx_path("search_tours_input_data.xlsx"))
         sheet = wb.active
         data = []
 
@@ -62,7 +69,7 @@ class XlsxReader:
 
     @staticmethod
     def get_xlsx_transfers_data():
-        wb = load_workbook(f"./utils/search_transfers_input_data.xlsx")
+        wb = load_workbook(_xlsx_path("search_transfers_input_data.xlsx"))
         sheet = wb.active
         data = []
 

@@ -15,7 +15,7 @@ class TestFlightSearch:
         search_flight.open_page()
         search_flight.set_loc_from("JIMMA")
         search_flight.set_loc_to("ADDIS")
-        search_flight.set_departure_date("25/12/2025")
+        search_flight.set_departure_date("28/04/2026")
         search_flight.set_return_date("02/06/2026")
         search_flight.set_adults_number(2)
         search_flight.set_children_number(4)

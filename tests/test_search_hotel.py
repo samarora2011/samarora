@@ -12,8 +12,8 @@ class TestHotelSearch:
     def test_search_hotel_1(self):
         search_hotel = SearchHotelsForm(self.driver)
         search_hotel.open_page()
-        search_hotel.set_destination("Addis Ababa")
-        search_hotel.set_date_range("29/12/2025", "03/01/2026")
+        search_hotel.set_destination("Warsaw")
+        search_hotel.set_date_range("29/04/2025", "03/07/2026")
         search_hotel.set_adults_number(3)
         search_hotel.set_kids_number(0)
         search_hotel.set_nationality("Ethiopia")

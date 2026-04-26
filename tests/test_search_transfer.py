@@ -15,10 +15,10 @@ class TestTransferSearch:
         search_transfer.open_page()
         # search_transfer.open_transfer_tab()
         search_transfer.set_pick_up_loc("Manchester")
-        search_transfer.set_drop_off_loc("Petra")
-        search_transfer.set_depart_date("2019", "Dec", "29")
+        search_transfer.set_drop_off_loc("liverpool")
+        search_transfer.set_depart_date("2026", "Apr", "29")
         search_transfer.set_depart_time("12:30")
-        search_transfer.set_return_date("2020", "Jan", "8")
+        search_transfer.set_return_date("2026", "Jul", "8")
         search_transfer.set_return_time("15:00")
         search_transfer.search_perform()
 

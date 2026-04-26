@@ -1,10 +1,11 @@
 import allure
 from allure_commons.types import AttachmentType
+from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from locators.locators import SearchHotelsFormLocators
+from locators.locators import SearchHotelsFormLocators, SearchTabsLocators
 
 
 class SearchHotelsForm:
@@ -22,11 +23,24 @@ class SearchHotelsForm:
 
     def _click_element(self, element):
         self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
-        element.click()
+        try:
+            element.click()
+        except StaleElementReferenceException:
+            try:
+                self.driver.execute_script("arguments[0].click();", element)
+            except Exception:
+                raise
 
     @allure.step("Opening phptravels.net website")
     def open_page(self):
         self.driver.get("https://phptravels.net")
+
+        try:
+            self.wait.until(EC.visibility_of_element_located(SearchHotelsFormLocators.destination_input))
+        except TimeoutException:
+            hotels_tab = self.wait.until(EC.element_to_be_clickable(SearchTabsLocators.hotels_tab))
+            hotels_tab.click()
+            self.wait.until(EC.visibility_of_element_located(SearchHotelsFormLocators.destination_input))
 
     @allure.step("Setting destination to '{destination}'")
     def set_destination(self, destination):
@@ -34,16 +48,22 @@ class SearchHotelsForm:
         element.clear()
         element.send_keys(destination)
 
-        suggestion_xpath = (
-            f"//div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') "
-            f"and contains(@class,'border-b') and contains(@class,'transition-colors') "
-            f"and contains(normalize-space(.), '{destination}')][1]"
+        suggestion_items_xpath = (
+            "//div[contains(@class,'p-2.5') and contains(@class,'cursor-pointer') "
+            "and contains(@class,'border-b') and contains(@class,'transition-colors')]"
         )
+
         try:
-            suggestion = self.wait.until(EC.element_to_be_clickable((By.XPATH, suggestion_xpath)))
-            self._click_element(suggestion)
-        except Exception:
-            element.send_keys(Keys.ENTER)
+            self.wait.until(EC.visibility_of_any_elements_located((By.XPATH, suggestion_items_xpath)))
+            suggestions = [s for s in self.driver.find_elements(By.XPATH, suggestion_items_xpath) if s.is_displayed()]
+            if suggestions:
+                target = next((s for s in suggestions if destination.lower() in s.text.lower()), suggestions[0])
+                self._click_element(target)
+                return
+        except TimeoutException:
+            pass
+
+        element.send_keys(Keys.ENTER)
 
     @allure.step("Setting date range from '{check_in}' to '{check_out}'")
     def set_date_range(self, check_in, check_out):
